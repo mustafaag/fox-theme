@@ -1,0 +1,1762 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fox Magazine v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-18 01:37:40+0000\n"
+"Last-Translator: admin <youremail@domain.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Your language\n"
+"X-Poedit-Country: YOUR COUNTRY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:23
+#, php-format
+#@ wi
+msgid "It seems we can’t find what you’re looking for. Perhaps searching can help or go back to <a href=\"%s\">Homepage</a>."
+msgstr ""
+
+#: comments.php:16
+#, php-format
+#@ wi
+msgid "1 Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:29
+#@ wi
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30
+#@ wi
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:40
+#@ wi
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:52
+#: comments.php:55
+#@ wi
+msgid "Name"
+msgstr ""
+
+#: comments.php:58
+#: comments.php:61
+#: functions.php:464
+#@ wi
+msgid "Email"
+msgstr ""
+
+#: comments.php:64
+#: comments.php:66
+#@ wi
+msgid "Website"
+msgstr ""
+
+#: comments.php:69
+#@ default
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: comments.php:70
+#@ wi
+msgid "Write your comment..."
+msgstr ""
+
+#: comments.php:74
+#@ wi
+msgid "Your email address will not be published."
+msgstr ""
+
+#: functions.php:119
+#@ wi
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:158
+#@ wi
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:160
+#@ wi
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:168
+#@ wi
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:170
+#@ wi
+msgid "Add widgets here to appear in your page's sidebar."
+msgstr ""
+
+#: functions.php:343
+#: inc/class-tgm-plugin-activation.php:2
+#@ wi
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:344
+#: inc/class-tgm-plugin-activation.php:2
+#@ wi
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:345
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:346
+#@ wi
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:347
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:348
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:349
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:350
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:351
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:352
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:353
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:354
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:355
+#: inc/class-tgm-plugin-activation.php:2
+#@ wi
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:356
+#: inc/class-tgm-plugin-activation.php:2
+#@ wi
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:357
+#: inc/class-tgm-plugin-activation.php:2
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:358
+#: inc/class-tgm-plugin-activation.php:2
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:359
+#, php-format
+#@ wi
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:404
+#@ wi
+msgid "Twitter URL"
+msgstr ""
+
+#: functions.php:405
+#@ wi
+msgid "Facebook URL"
+msgstr ""
+
+#: functions.php:406
+#@ wi
+msgid "Google+ URL"
+msgstr ""
+
+#: functions.php:407
+#@ wi
+msgid "Tumblr URL"
+msgstr ""
+
+#: functions.php:408
+#@ wi
+msgid "Instagram URL"
+msgstr ""
+
+#: functions.php:409
+#@ wi
+msgid "Pinterest URL"
+msgstr ""
+
+#: functions.php:410
+#@ wi
+msgid "LinkedIn URL"
+msgstr ""
+
+#: functions.php:411
+#@ wi
+msgid "YouTube URL"
+msgstr ""
+
+#: functions.php:412
+#@ wi
+msgid "Vimeo URL"
+msgstr ""
+
+#: functions.php:413
+#@ wi
+msgid "Soundcloud URL"
+msgstr ""
+
+#: functions.php:414
+#@ wi
+msgid "Flickr URL"
+msgstr ""
+
+#: functions.php:427
+#: loop/content.php:67
+#: page-fullwidth.php:39
+#: page-one-column.php:39
+#: page.php:34
+#: single.php:66
+#@ wi
+msgid "Facebook"
+msgstr ""
+
+#: functions.php:428
+#: loop/content.php:68
+#: page-fullwidth.php:40
+#: page-one-column.php:40
+#: page.php:35
+#: single.php:67
+#@ wi
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:429
+#: loop/content.php:69
+#: page-fullwidth.php:41
+#: page-fullwidth.php:42
+#: page-one-column.php:41
+#: page-one-column.php:42
+#: page.php:36
+#: page.php:37
+#: single.php:68
+#: single.php:69
+#@ wi
+msgid "Google+"
+msgstr ""
+
+#: functions.php:430
+#@ wi
+msgid "LinkedIn"
+msgstr ""
+
+#: functions.php:431
+#@ wi
+msgid "Tumblr"
+msgstr ""
+
+#: functions.php:432
+#: loop/content.php:70
+#: page-fullwidth.php:42
+#: page-one-column.php:42
+#: page.php:37
+#: single.php:69
+#@ wi
+msgid "Pinterest"
+msgstr ""
+
+#: functions.php:433
+#@ wi
+msgid "YouTube"
+msgstr ""
+
+#: functions.php:434
+#@ wi
+msgid "Skype"
+msgstr ""
+
+#: functions.php:435
+#@ wi
+msgid "Instagram"
+msgstr ""
+
+#: functions.php:436
+#@ wi
+msgid "Delicious"
+msgstr ""
+
+#: functions.php:437
+#@ wi
+msgid "Digg"
+msgstr ""
+
+#: functions.php:438
+#@ wi
+msgid "Reddit"
+msgstr ""
+
+#: functions.php:439
+#@ wi
+msgid "StumbleUpon"
+msgstr ""
+
+#: functions.php:440
+#@ wi
+msgid "Medium"
+msgstr ""
+
+#: functions.php:441
+#@ wi
+msgid "Vimeo"
+msgstr ""
+
+#: functions.php:442
+#@ wi
+msgid "Yahoo!"
+msgstr ""
+
+#: functions.php:443
+#@ wi
+msgid "Flickr"
+msgstr ""
+
+#: functions.php:444
+#@ wi
+msgid "DeviantArt"
+msgstr ""
+
+#: functions.php:445
+#@ wi
+msgid "GitHub"
+msgstr ""
+
+#: functions.php:446
+#@ wi
+msgid "StackOverFlow"
+msgstr ""
+
+#: functions.php:447
+#@ wi
+msgid "Stack Exchange"
+msgstr ""
+
+#: functions.php:448
+#@ wi
+msgid "Bitbucket"
+msgstr ""
+
+#: functions.php:449
+#@ wi
+msgid "Xing"
+msgstr ""
+
+#: functions.php:450
+#@ wi
+msgid "Foursquare"
+msgstr ""
+
+#: functions.php:451
+#@ wi
+msgid "Paypal"
+msgstr ""
+
+#: functions.php:452
+#@ wi
+msgid "Yelp"
+msgstr ""
+
+#: functions.php:453
+#@ wi
+msgid "SoundCloud"
+msgstr ""
+
+#: functions.php:454
+#@ wi
+msgid "Last.fm"
+msgstr ""
+
+#: functions.php:455
+#@ wi
+msgid "Spotify"
+msgstr ""
+
+#: functions.php:456
+#@ wi
+msgid "Slideshare"
+msgstr ""
+
+#: functions.php:457
+#@ wi
+msgid "Dribbble"
+msgstr ""
+
+#: functions.php:458
+#@ wi
+msgid "Steam"
+msgstr ""
+
+#: functions.php:459
+#@ wi
+msgid "Behance"
+msgstr ""
+
+#: functions.php:460
+#@ wi
+msgid "Weibo"
+msgstr ""
+
+#: functions.php:461
+#@ wi
+msgid "Trello"
+msgstr ""
+
+#: functions.php:462
+#@ wi
+msgid "VKontakte"
+msgstr ""
+
+#: functions.php:463
+#: inc/customizer.php:183
+#@ wi
+msgid "Homepage"
+msgstr ""
+
+#: functions.php:465
+#@ wi
+msgid "Feed"
+msgstr ""
+
+#: functions.php:584
+#@ wi
+msgid "Gallery Style"
+msgstr ""
+
+#: functions.php:587
+#@ wi
+msgid "Slide Slider"
+msgstr ""
+
+#: functions.php:590
+#@ wi
+msgid "Fade Slider"
+msgstr ""
+
+#: functions.php:714
+#@ wi
+msgid "Thumbnail"
+msgstr ""
+
+#: functions.php:740
+#: inc/customizer.php:445
+#: widgets/latest-posts.php:135
+#: widgets/latest-posts.php:150
+#@ wi
+#@ st
+msgid "None"
+msgstr ""
+
+#: functions.php:767
+#@ wi
+msgid "Go to"
+msgstr ""
+
+#: functions.php:768
+#@ wi
+msgid "Top"
+msgstr ""
+
+#: functions.php:835
+#@ wi
+msgid "Example meta field"
+msgstr ""
+
+#: functions.php:837
+#@ wi
+msgid "Enter a value for this field"
+msgstr ""
+
+#: functions.php:850
+#@ wi
+msgid "Default"
+msgstr ""
+
+#: functions.php:851
+#: inc/customizer.php:172
+#@ wi
+msgid "Standard + sidebar"
+msgstr ""
+
+#: functions.php:852
+#: inc/customizer.php:173
+#@ wi
+msgid "Standard no sidebar"
+msgstr ""
+
+#: functions.php:853
+#: inc/customizer.php:174
+#@ wi
+msgid "Grid + sidebar"
+msgstr ""
+
+#: functions.php:854
+#: inc/customizer.php:175
+#@ wi
+msgid "Grid no sidebar"
+msgstr ""
+
+#: functions.php:855
+#: inc/customizer.php:176
+#@ wi
+msgid "Pinterest-like + sidebar"
+msgstr ""
+
+#: functions.php:856
+#: inc/customizer.php:177
+#@ wi
+msgid "Pinterest-like no sidebar"
+msgstr ""
+
+#: functions.php:857
+#: inc/customizer.php:178
+#@ wi
+msgid "List + sidebar"
+msgstr ""
+
+#: functions.php:858
+#: inc/customizer.php:179
+#@ wi
+msgid "List no sidebar"
+msgstr ""
+
+#: functions.php:868
+#@ wi
+msgid "Select layout"
+msgstr ""
+
+#: functions.php:875
+#@ wi
+msgid "Select layout for displaying posts on this category"
+msgstr ""
+
+#: inc/automatic-featured-images-from-videos.php:62
+#@ automatic-featured-images-from-videos
+msgid "Need a valid URL and post ID..."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2
+#@ wi
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2
+#, php-format
+#@ wi
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "External Link"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#@ wi
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:18
+#, php-format
+#@ wi
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer.php:14
+#@ wi
+msgid "Icons"
+msgstr ""
+
+#: inc/customizer.php:21
+#@ wi
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:28
+#@ wi
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:35
+#@ wi
+msgid "Featured posts"
+msgstr ""
+
+#: inc/customizer.php:91
+#@ wi
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:42
+#@ wi
+msgid "Select fonts"
+msgstr ""
+
+#: inc/customizer.php:49
+#@ wi
+msgid "Font size"
+msgstr ""
+
+#: inc/customizer.php:63
+#@ wi
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:70
+#@ wi
+msgid "Single"
+msgstr ""
+
+#: inc/customizer.php:77
+#@ wi
+msgid "Page"
+msgstr ""
+
+#: inc/customizer.php:84
+#@ wi
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer.php:98
+#@ wi
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:105
+#@ wi
+msgid "Quick Translation"
+msgstr ""
+
+#: inc/customizer.php:122
+#@ wi
+msgid "Upload a favicon for your site (16px 16px)"
+msgstr ""
+
+#: inc/customizer.php:125
+#@ wi
+msgid "Favicon is a small image on the address bar of your browser"
+msgstr ""
+
+#: inc/customizer.php:141
+#, php-format
+#@ wi
+msgid "Apple icon with size %s"
+msgstr ""
+
+#: inc/customizer.php:144
+#@ wi
+msgid "This icon used for your website on some Apple device (iPhone 5, iPhone 6, iPad...)"
+msgstr ""
+
+#: inc/customizer.php:184
+#@ wi
+msgid "Category page"
+msgstr ""
+
+#: inc/customizer.php:185
+#@ wi
+msgid "Archive page"
+msgstr ""
+
+#: inc/customizer.php:186
+#@ wi
+msgid "Tag page"
+msgstr ""
+
+#: inc/customizer.php:187
+#@ wi
+msgid "Author page"
+msgstr ""
+
+#: inc/customizer.php:188
+#@ wi
+msgid "Search page"
+msgstr ""
+
+#: inc/customizer.php:198
+#, php-format
+#@ wi
+msgid "%s layout"
+msgstr ""
+
+#: inc/customizer.php:213
+#@ wi
+msgid "Single post layout"
+msgstr ""
+
+#: inc/customizer.php:218
+#@ wi
+msgid "Has sidebar"
+msgstr ""
+
+#: inc/customizer.php:219
+#@ wi
+msgid "No sidebar"
+msgstr ""
+
+#: inc/customizer.php:286
+#@ wi
+msgid "Upload a logo"
+msgstr ""
+
+#: inc/customizer.php:303
+#@ wi
+msgid "Upload retina version of the logo"
+msgstr ""
+
+#: inc/customizer.php:306
+#@ wi
+msgid "2x times logo dimensions"
+msgstr ""
+
+#: inc/customizer.php:319
+#@ wi
+msgid "Logo margin top (px)"
+msgstr ""
+
+#: inc/customizer.php:334
+#@ wi
+msgid "Logo margin bottom (px)"
+msgstr ""
+
+#: inc/customizer.php:351
+#@ wi
+msgid "Disable header social icons"
+msgstr ""
+
+#: inc/customizer.php:367
+#@ wi
+msgid "Disable header slogan?"
+msgstr ""
+
+#: inc/customizer.php:380
+#@ wi
+msgid "Add custom code to header"
+msgstr ""
+
+#: inc/customizer.php:384
+#@ wi
+msgid "Add any code inside <head> tag. Don't write anything unless you understand what you're doing."
+msgstr ""
+
+#: inc/customizer.php:401
+#@ wi
+msgid "Disable \"Featured Posts\" area"
+msgstr ""
+
+#: inc/customizer.php:417
+#@ wi
+msgid "Number of featured posts to show"
+msgstr ""
+
+#: inc/customizer.php:433
+#@ wi
+msgid "Featured posts heading"
+msgstr ""
+
+#: inc/customizer.php:543
+#@ wi
+msgid "Disable footer social icons"
+msgstr ""
+
+#: inc/customizer.php:574
+#@ wi
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:590
+#@ wi
+msgid "Disable \"back to top\" button"
+msgstr ""
+
+#: inc/customizer.php:602
+#@ wi
+msgid "Body text"
+msgstr ""
+
+#: inc/customizer.php:603
+#@ wi
+msgid "Heading text"
+msgstr ""
+
+#: header.php:30
+#: inc/customizer.php:604
+#@ wi
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:723
+#, php-format
+#@ wi
+msgid "%s font size"
+msgstr ""
+
+#: inc/customizer.php:933
+#@ wi
+msgid "Hide post date?"
+msgstr ""
+
+#: inc/customizer.php:949
+#@ wi
+msgid "Hide post categories?"
+msgstr ""
+
+#: inc/customizer.php:965
+#@ wi
+msgid "Hide post author?"
+msgstr ""
+
+#: inc/customizer.php:981
+#@ wi
+msgid "Hide post comment link?"
+msgstr ""
+
+#: inc/customizer.php:998
+#: inc/customizer.php:1083
+#@ wi
+msgid "Hide post share icons?"
+msgstr ""
+
+#: inc/customizer.php:1031
+#@ wi
+msgid "Excerpt length?"
+msgstr ""
+
+#: inc/customizer.php:1100
+#@ wi
+msgid "Hide \"related posts\" area?"
+msgstr ""
+
+#: inc/customizer.php:1117
+#@ wi
+msgid "Hide authorbox?"
+msgstr ""
+
+#: inc/customizer.php:1133
+#@ wi
+msgid "Hide comment area for all posts?"
+msgstr ""
+
+#: inc/customizer.php:1149
+#@ wi
+msgid "Hide post navigation?"
+msgstr ""
+
+#: inc/customizer.php:1185
+#@ wi
+msgid "Hide share icons on page"
+msgstr ""
+
+#: inc/customizer.php:1201
+#@ wi
+msgid "Hide comment area all pages"
+msgstr ""
+
+#: inc/customizer.php:1218
+#@ wi
+msgid "Exclude pages from search"
+msgstr ""
+
+#: inc/customizer.php:1257
+#@ wi
+msgid "Insert custom CSS"
+msgstr ""
+
+#: inc/customizer.php:758
+#@ wi
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer.php:764
+#@ wi
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:770
+#@ wi
+msgid "Link hover color"
+msgstr ""
+
+#: inc/customizer.php:775
+#@ wi
+msgid "Accent color"
+msgstr ""
+
+#: inc/customizer.php:780
+#@ wi
+msgid "Selection color"
+msgstr ""
+
+#: inc/customizer.php:785
+#@ wi
+msgid "Selection text color"
+msgstr ""
+
+#: inc/featured-post.php:127
+#@ wi
+msgid "Featured"
+msgstr ""
+
+#: inc/featured-post.php:229
+#: widgets/about.php:57
+#: widgets/ads.php:59
+#: widgets/facebook.php:69
+#: widgets/latest-posts.php:123
+#: widgets/media.php:58
+#: widgets/social.php:48
+#@ wi
+msgid "Title:"
+msgstr ""
+
+#: inc/featured-post.php:235
+#@ wi
+msgid "Post Type:"
+msgstr ""
+
+#: inc/featured-post.php:246
+#@ wi
+msgid "Number To show:"
+msgstr ""
+
+#: inc/headline.php:16
+#@ wi
+msgid "Search result"
+msgstr ""
+
+#: inc/headline.php:18
+#, php-format
+#@ wi
+msgid "%s result(s) found."
+msgstr ""
+
+#: inc/headline.php:20
+#@ wi
+msgid "Daily archive"
+msgstr ""
+
+#: inc/headline.php:23
+#@ wi
+msgid "Monthly archive"
+msgstr ""
+
+#: inc/headline.php:26
+#@ wi
+msgid "Yearly archive"
+msgstr ""
+
+#: inc/headline.php:32
+#, php-format
+#@ wi
+msgid "%s"
+msgstr ""
+
+#: inc/headline.php:35
+#@ wi
+msgid "Author"
+msgstr ""
+
+#: inc/headline.php:40
+#, php-format
+#@ wi
+msgid "<span>%1$s</span> has %2$s articles published."
+msgstr ""
+
+#: inc/headline.php:42
+#@ wi
+msgid "Not found"
+msgstr ""
+
+#: inc/headline.php:43
+#@ wi
+msgid "404"
+msgstr ""
+
+#: inc/headline.php:47
+#, php-format
+#@ wi
+msgid " - page %d"
+msgstr ""
+
+#: loop/content-grid.php:20
+#: loop/content-grid.php:22
+#: loop/content-list.php:20
+#: loop/content-list.php:22
+#: loop/content-masonry.php:20
+#: loop/content-masonry.php:22
+#: loop/content-related.php:20
+#: loop/content-related.php:22
+#: loop/content-sticky.php:12
+#: loop/content-sticky.php:14
+#: loop/content.php:17
+#: single.php:30
+#@ wi
+msgid "<span class=\"sep\">/</span>"
+msgstr ""
+
+#: loop/content-sticky.php:25
+#: loop/content.php:45
+#@ wi
+msgid "Keep Reading"
+msgstr ""
+
+#: loop/content.php:59
+#@ wi
+msgid "No comments"
+msgstr ""
+
+#: loop/content.php:60
+#@ wi
+msgid "1 comment"
+msgstr ""
+
+#: loop/content.php:61
+#@ wi
+msgid "% comments"
+msgstr ""
+
+#: loop/content.php:63
+#@ wi
+msgid "Off"
+msgstr ""
+
+#: loop/content.php:69
+#: page-fullwidth.php:41
+#: page-one-column.php:41
+#: page.php:36
+#: single.php:68
+#@ wi
+msgid "Google"
+msgstr ""
+
+#: page-fullwidth.php:30
+#: page-one-column.php:30
+#: page.php:25
+#@ wi
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:59
+#: searchform.php:3
+#@ wi
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:4
+#@ wi
+msgid "Go"
+msgstr ""
+
+#: single.php:57
+#@ wi
+msgid "Continue reading:"
+msgstr ""
+
+#: index.php:15
+#: single.php:137
+#@ wi
+msgid "Latest posts"
+msgstr ""
+
+#: single.php:234
+#@ wi
+msgid "Next Story"
+msgstr ""
+
+#: single.php:235
+#@ wi
+msgid "Next post:"
+msgstr ""
+
+#: single.php:237
+#@ wi
+msgid "Previous Story"
+msgstr ""
+
+#: single.php:238
+#@ wi
+msgid "Previous post:"
+msgstr ""
+
+#: widgets/about.php:15
+#@ wi
+msgid "About"
+msgstr ""
+
+#: widgets/about.php:17
+#@ wi
+msgid "Wi:About"
+msgstr ""
+
+#: widgets/about.php:65
+#: widgets/ads.php:73
+#@ wi
+msgid "Image URL"
+msgstr ""
+
+#: widgets/about.php:70
+#@ wi
+msgid "Description (Use &lt;br /&gt; to insert new line)"
+msgstr ""
+
+#: widgets/ads.php:15
+#@ wi
+msgid "Banner or Advertisemnet"
+msgstr ""
+
+#: widgets/ads.php:17
+#@ wi
+msgid "Wi:Banner"
+msgstr ""
+
+#: widgets/ads.php:68
+#@ wi
+msgid "Banner URL"
+msgstr ""
+
+#: widgets/ads.php:78
+#@ wi
+msgid "Custom Code"
+msgstr ""
+
+#: widgets/ads.php:80
+#@ wi
+msgid "Use the code if your ad is something like adsense or requires a code snippet."
+msgstr ""
+
+#: widgets/facebook.php:8
+#@ wi
+msgid "Facebook Likebox Widget"
+msgstr ""
+
+#: widgets/facebook.php:10
+#@ wi
+msgid "Wi:Facebook"
+msgstr ""
+
+#: widgets/facebook.php:72
+#@ wi
+msgid "Page URL:"
+msgstr ""
+
+#: widgets/facebook.php:76
+#@ wi
+msgid "Show Faces?"
+msgstr ""
+
+#: widgets/facebook.php:80
+#@ wi
+msgid "Show Stream?"
+msgstr ""
+
+#: widgets/facebook.php:83
+#@ wi
+msgid "Show Header?"
+msgstr ""
+
+#: widgets/latest-posts.php:128
+#@ wi
+msgid "Number of posts to show"
+msgstr ""
+
+#: widgets/latest-posts.php:15
+#@ wi
+msgid "Display latest posts"
+msgstr ""
+
+#: widgets/latest-posts.php:17
+#@ wi
+msgid "Wi:Latest Posts"
+msgstr ""
+
+#: widgets/latest-posts.php:133
+#@ wi
+msgid "Display posts from a category?"
+msgstr ""
+
+#: widgets/latest-posts.php:148
+#@ wi
+msgid "Display posts from a tag?"
+msgstr ""
+
+#: widgets/media.php:15
+#@ wi
+msgid "Video / Soundcloud Widget"
+msgstr ""
+
+#: widgets/media.php:17
+#@ wi
+msgid "Wi:Video / SoundCloud"
+msgstr ""
+
+#: widgets/media.php:63
+#@ wi
+msgid "Video / SoundCloud URL"
+msgstr ""
+
+#: widgets/media.php:65
+#@ wi
+msgid "Insert Youtube URL, Vimeo URL or SoundCloud URL (NOT iframe or ID, but <strong>URL</strong>)"
+msgstr ""
+
+#: widgets/social.php:15
+#@ wi
+msgid "Display social media icons from options."
+msgstr ""
+
+#: widgets/social.php:17
+#@ wi
+msgid "Wi:Social"
+msgstr ""
+
+#: footer.php:68
+#@ wi
+msgid "All rights reserved. Designed by <a href=\"http://themeforest.net/user/withemes/portfolio?ref=withemes\" target=\"_blank\">Withemes</a>"
+msgstr ""
+
+#: functions.php:179
+#, php-format
+#@ wi
+msgid "Footer %s"
+msgstr ""
+
+#: functions.php:181
+#@ wi
+msgid "Add widgets here to appear in your footer sidebar."
+msgstr ""
+
+#: functions.php:387
+#@ wi
+msgid "Previous"
+msgstr ""
+
+#: functions.php:388
+#@ wi
+msgid "Next"
+msgstr ""
+
+#: functions.php:593
+#@ wi
+msgid "Carousel"
+msgstr ""
+
+#: header.php:42
+#, php-format
+#@ wi
+msgid "Go to <a href=\"%s\">Appearance > Menu</a> to set \"Primary Menu\""
+msgstr ""
+
+#: inc/customizer.php:56
+#@ wi
+msgid "Color & Background"
+msgstr ""
+
+#: inc/customizer.php:164
+#@ wi
+msgid "\"Latest posts\" heading text for grid, masonry, list layout"
+msgstr ""
+
+#: inc/customizer.php:233
+#@ wi
+msgid "Left sidebar?"
+msgstr ""
+
+#: inc/customizer.php:249
+#@ wi
+msgid "Emphasize masonry first post?"
+msgstr ""
+
+#: inc/customizer.php:266
+#@ wi
+msgid "Sidebar width (px)"
+msgstr ""
+
+#: inc/customizer.php:270
+#@ wi
+msgid "Enter a number. Default is 265px."
+msgstr ""
+
+#: inc/customizer.php:405
+#@ wi
+msgid "\"Featured Posts\" are posts that marked by a star in the backend."
+msgstr ""
+
+#: inc/customizer.php:421
+#@ wi
+msgid "Default is 4 posts."
+msgstr ""
+
+#: inc/customizer.php:449
+#, php-format
+#@ wi
+msgid "Category: %s"
+msgstr ""
+
+#: inc/customizer.php:460
+#@ wi
+msgid "Select footer category carousel"
+msgstr ""
+
+#: inc/customizer.php:477
+#@ wi
+msgid "Number of posts to show?"
+msgstr ""
+
+#: inc/customizer.php:493
+#@ wi
+msgid "Footer carousel heading text"
+msgstr ""
+
+#: inc/customizer.php:509
+#@ wi
+msgid "Upload footer logo"
+msgstr ""
+
+#: inc/customizer.php:526
+#@ wi
+msgid "Upload retina version of the footer logo"
+msgstr ""
+
+#: inc/customizer.php:529
+#@ wi
+msgid "2x times footer logo dimensions"
+msgstr ""
+
+#: inc/customizer.php:559
+#@ wi
+msgid "Disable footer seachbox?"
+msgstr ""
+
+#: inc/customizer.php:626
+#, php-format
+#@ wi
+msgid "Select \"%s\" font?"
+msgstr ""
+
+#: inc/customizer.php:643
+#, php-format
+#@ wi
+msgid "Custom font name for \"%s\" if it's not in Google fonts"
+msgstr ""
+
+#: inc/customizer.php:656
+#, php-format
+#@ wi
+msgid "Fallback font for \"%s\"?"
+msgstr ""
+
+#: inc/customizer.php:741
+#@ wi
+msgid "Slogan letter spacing"
+msgstr ""
+
+#: inc/customizer.php:791
+#@ wi
+msgid "Body background color"
+msgstr ""
+
+#: inc/customizer.php:827
+#@ wi
+msgid "Body background image"
+msgstr ""
+
+#: inc/customizer.php:843
+#@ wi
+msgid "Background position"
+msgstr ""
+
+#: inc/customizer.php:847
+#@ wi
+msgid "Default is \"center top\""
+msgstr ""
+
+#: inc/customizer.php:860
+#@ wi
+msgid "Background size"
+msgstr ""
+
+#: inc/customizer.php:864
+#@ wi
+msgid "Default is \"cover\""
+msgstr ""
+
+#: inc/customizer.php:874
+#@ wi
+msgid "Background repeat"
+msgstr ""
+
+#: inc/customizer.php:884
+#@ wi
+msgid "Default is \"No Repeat\""
+msgstr ""
+
+#: inc/customizer.php:894
+#@ wi
+msgid "Background attachment"
+msgstr ""
+
+#: inc/customizer.php:902
+#@ wi
+msgid "Default is \"fixed\""
+msgstr ""
+
+#: inc/customizer.php:912
+#@ wi
+msgid "Content background opacity"
+msgstr ""
+
+#: inc/customizer.php:916
+#@ wi
+msgid "Enter a number from 0 - 100. Default is 100%. The lower this number, the more background image affects content."
+msgstr ""
+
+#: inc/customizer.php:1015
+#@ wi
+msgid "Hide related posts area?"
+msgstr ""
+
+#: inc/customizer.php:1035
+#@ wi
+msgid "Enter a number of words that you wanna display on post excerpt? Default is 44."
+msgstr ""
+
+#: inc/customizer.php:1048
+#@ wi
+msgid "Disable 2-columns mode"
+msgstr ""
+
+#: inc/customizer.php:1064
+#@ wi
+msgid "Disable \"big first letter\""
+msgstr ""
+
+#: inc/customizer.php:1165
+#@ wi
+msgid "Hide \"same category posts\" area?"
+msgstr ""
+
+#: inc/headline.php:11
+#@ wi
+msgid "Category archive"
+msgstr ""
+
+#: inc/headline.php:29
+#@ wi
+msgid "Tag archive"
+msgstr ""
+
+#: loop/content.php:13
+#: single.php:26
+#, php-format
+#@ wi
+msgid "Published on %s"
+msgstr ""
+
+#: loop/content.php:19
+#: single.php:32
+#, php-format
+#@ wi
+msgid "in %s"
+msgstr ""
+
+#: loop/content.php:26
+#: single.php:39
+#, php-format
+#@ wi
+msgid "by %s"
+msgstr ""
+
+#: loop/content.php:94
+#: single.php:93
+#@ wi
+msgid "You might be interested in"
+msgstr ""
+
+#: single.php:192
+#@ wi
+msgid "View all"
+msgstr ""
+
+#: single.php:266
+#, php-format
+#@ wi
+msgid "Latest from %s"
+msgstr ""
+

@@ -1,0 +1,64 @@
+=== v2.0 ====
+
+- FEATURE ADDED: Homepage Builder with 10 predefined sections
+- FEATURE ADDED: Top Slider Option
+- FEATURE ADDED: "Newspaper" layout
+- FEATURE ADDED: Grid and Masonry with option 2, 3, 4 columns
+- FEATURE ADDED: Post view and most-viewed widget
+- FEATURE ADDED: Page that lists all of featured posts
+- FEATURE ADDED: Menu icon option to menu
+- FEATURE ADDED: Submenu indicator for menu items
+- FEATURE ADDED: Option dark/light submenu
+- FEATURE ADDED: Animation for elements
+- FEATURE ADDED: Widget title background color & active menu item background color
+- FEATURE ADDED: Option for not display featured image on single post/blog post
+- FEATURE ADDED: Option for display content/excerpt on the main blog
+- FEATURE ADDED: Loading for Masonry style, Newspaper style
+- FEATURE ADDED: Readmore button for grid/masonry/list layout
+- FEATURE ADDED: Format sign for gallery, audio, video posts
+- FEATURE ADDED: Documentation for version 2.0
+
+- IMPROVED & FIXED: Minor CSS issues
+- IMPROVED & FIXED: General Code Quality
+- IMPROVED & FIXED: Responsiveness and Responsive CSS file
+- IMPROVED & FIXED: Table of contents CSS file for Child Theme Developer
+- IMPROVED & FIXED: Change hand-drawn lines to modern lines to make theme look more modern but keep hand-drawn lines as an option
+- IMPROVED & FIXED: Layout option & Sidebar Option completely to make it easier to control and extend the theme
+- IMPROVED & FIXED: Posts thumbnail to square for a better display and site loading time
+- IMPROVED & FIXED: Default primary color
+- IMPROVED & FIXED: Lines from Grind & Masonry layout
+- IMPROVED & FIXED: Thumbnail display on related posts or same-category posts
+- IMPROVED & FIXED: Redundant files (such as demo.php, thumbnail-grid.php...)
+- IMPROVED & FIXED: Masonry Performance
+- IMPROVED & FIXED: Change from Sticky post & latest highlights to Homepage Builder which is more powerful and customizable
+- IMPROVED & FIXED: Aesthetic aspect of the theme
+
+
+=== v2.0.1 ===
+- Fix Vimeo icon issue
+- Fix minor CSS/JS issues
+- Update the Docs
+- Fix Retina issue to reduce HTTP Requests
+
+=== v 2.1 ===
+- FEATURE ADDED: Add menu item third dropdown
+- FEATURE ADDED: Add search button to header
+- FEATURE ADDED: Add option for container width
+- FEATURE ADDED: Wordpress Gallery
+- IMPROVED & FIXED: Fix Retina issue
+
+=== v 2.1.1 ===
+- FEATURE ADDED: Display tags on single post
+
+=== v 2.1.2 ===
+
+=== v 2.2 (Future work) ===
+---- Add option to exclude categories from main stream
+---- Add option for single-column & two-column layout in blog and single post
+---- Add ad space to the theme
+---- Add MailChimp Subscribe widget CSS
+---- Customizer Export/Import	+	One-Click Installation
+---- WPML
+---- WooCommerce
+---- BBPress
+---- BuddyPress

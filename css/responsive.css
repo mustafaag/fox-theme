@@ -1,0 +1,1337 @@
+/* ===============================================		WIDE SCREEN // target 1920px		=============================================== */
+@media (min-width: 1367px) {
+	
+}
+/* ===============================================		LAPTOP // target 1366px & 1280px		=============================================== */
+@media (max-width: 1036px) {
+}
+
+/* ===============================================		IPAD LANDSCAPE target 1024px	=============================================== */
+@media (max-width: 1138px) {
+    .container {
+        width: 1000px;
+    }
+    /* wrapper */
+    #wi-wrapper {
+        max-width: 1000px;
+        background-image: none !important;
+        border: none !important;
+        max-width: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #wi-wrapper:before,
+    #wi-wrapper:after {
+        display: none;
+    }
+    #wi-footer {
+        background: none;
+        border: none !important;
+    }
+    
+    /* slogan */
+    .slogan {
+        letter-spacing: 11px; /* 0.9 */
+    }
+    
+    /* menu */
+    #wi-mainnav ul.menu > li > a {
+        padding: 0 10px;
+    }
+    
+    .slick-item img {
+        height: 460px;
+    }
+}
+@media (max-width: 782px) {
+.admin-bar #wi-topbar.is-sticky {
+        top: 46px;
+    }
+}
+/* ===============================================		IPAD PORTRAIT target 768px		=============================================== */
+@media (max-width: 979px) {
+    
+    /* 6 - General settings 
+    ---------------------------- */
+    #wi-wrapper {
+        padding-top: 0;
+    }
+    /* container */
+    .container {
+        width: 724px;
+    }
+    
+    /* 7 - Slick carousel
+    ---------------------------- */
+    .slick-item img {
+        height: 380px;
+    }
+    /* 8 - Flexslider
+    ---------------------------- */
+    
+    /* 9 - Layout
+    ---------------------------- */
+    .has-sidebar #primary,
+    .has-sidebar #secondary {
+        width: 100% !important;
+        float: none !important;
+    }
+    .has-sidebar #primary {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .has-sidebar #secondary {
+        padding-bottom: 0;
+    }
+    .has-sidebar #secondary .widget-area .widget {
+        display: block;
+        float: left;
+        width: 45%;
+        margin-top: 0;
+        margin-bottom: 52px;
+    }
+    .gutter-sidebar {
+        width: 10%;
+    }
+    
+    /* 10 - Title
+    ---------------------------- */
+    
+    /* 11 - Header
+    ---------------------------- */
+    .slogan {
+        letter-spacing: 6px;
+    }
+    #wi-topbar.is-sticky {
+        background: #fff;
+        background: rgba(255,255,255,.95);
+    }
+    
+    #header-social {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    /* 12 - Menu
+    ---------------------------- */
+    #wi-topbar .container {
+        position: static;
+    }
+    #toggle-menu {
+        display:block;
+        float: left;
+        height:40px;
+        font-size:30px;
+        color:#000;
+        text-decoration:none;
+        text-align:center;
+        outline:none;
+        border:none;
+        cursor:pointer;
+        z-index:50;
+        }
+    #toggle-menu span {
+        font-size: 26px;
+        line-height: 40px;
+        margin-left: 6px;
+        color: #000;
+    }
+    #toggle-menu i {
+        line-height: 40px;
+        }			
+    #wi-mainnav {
+        display:none;
+        margin:0 auto;
+        position:absolute;
+        top:100%;
+        left:0px;
+        z-index:9999;
+        overflow:hidden;
+        width:100%;
+        background: #fff;
+        background: rgba(255,255,255,.95);
+        -webkit-box-shadow: inset 0 -1px 0 rgba( 0, 0, 0, 0.3 ), 0 1px 3px rgba( 0, 0, 0, 0.2 );
+        -moz-box-shadow: inset 0 -1px 0 rgba( 0, 0, 0, 0.3 ), 0 1px 3px rgba( 0, 0, 0, 0.2 );
+        box-shadow: inset 0 -1px 0 rgba( 0, 0, 0, 0.3 ), 0 1px 3px rgba( 0, 0, 0, 0.2 );
+        }
+    #wi-mainnav ul.menu {
+        display:block;
+        }			
+
+        /* first level items */
+    #wi-mainnav ul.menu > li {
+        display:block;
+        float:none;
+        position:static;
+        margin-left: 0;
+        }	
+    #wi-mainnav ul.menu > li > a,
+    #wi-mainnav .menu > ul > li > ul > li > a,
+    #wi-mainnav .menu > ul > li > ul > li > ul > li > a {
+        height: 36px;
+        line-height: 36px;
+        border-top: 1px solid #999;
+        padding:0;
+        padding-left: 20px;
+        position:relative;
+        text-align:left;
+        }
+    #wi-mainnav ul.menu > li > a {
+        font-size: 20px; /* .75em */
+    }
+    #wi-mainnav ul.menu > li > a:before {
+        content: "\2014";
+        font-family: sans-serif;
+        margin-right: 12px;
+        font-weight: 300;
+    }
+    #wi-mainnav .menu > ul > li > ul > li:first-child > a,
+    #wi-mainnav .menu > ul > li > ul > li > ul > li:first-child > a {
+        border-top: 1px solid #999;
+    }
+    #wi-mainnav ul.menu > li:first-child > a {
+        border-top: none;
+    }
+    #wi-mainnav .menu > ul > li.current-menu-item > a,
+    #wi-mainnav .menu > ul > li.current-menu-ancestor > a {
+        background: none;
+        color: #db4a37;
+    }
+    #wi-mainnav ul.menu > li > ul > li > a {
+        padding-left: 40px;
+        text-decoration: none;
+        }
+    #wi-mainnav ul.menu > li > ul > li > a:before {
+        content: "\2014";
+        font-family: sans-serif;
+        margin-right: 12px;
+        font-weight: 300;
+    }
+        /* third dropdown menu */
+        #wi-mainnav ul.menu > li > ul > li > ul > li > a {
+            padding-left: 60px;
+            text-decoration: none;
+            }
+        #wi-mainnav ul.menu > li > ul > li > ul > li > a:before {
+            content: "\2014";
+            font-family: sans-serif;
+            margin-right: 12px;
+            font-weight: 300;
+        }
+    #wi-mainnav ul.menu > li > a:after,
+    #wi-mainnav ul.menu > li.menu-item-has-children > a:after {
+        display:none;
+        }
+    
+            /* indicator */
+    #wi-mainnav ul.menu li > a > .indicator,
+    #wi-mainnav .menu > ul > li > ul > li > a .indicator {
+        display:block;
+        text-decoration: none;
+        position: absolute;
+        top:0;
+        right:0;
+        width:80px;
+        height:100%;
+        z-index:20;
+        font-size:18px;
+        font-style:normal;
+        }
+    #wi-mainnav ul.menu li ul li > a > .indicator {
+        font-size: 14px;
+    }
+    #wi-mainnav ul.menu li > a > .indicator i {
+        display: block;
+        position:absolute;
+        top:50%;
+        right: 10px;
+        display:block;
+        width:20px;
+        height:20px;
+        text-align:center;
+        margin-top:-10px;
+        line-height:20px;
+        }
+
+        /* submenu */	
+    #wi-mainnav .menu > ul > li > ul,
+    #wi-mainnav .menu > ul > li:hover > ul,
+    #wi-mainnav .menu > ul > li > ul > li > ul,
+    #wi-mainnav .menu > ul > li > ul > li:hover > ul {
+        position:static;
+        display: none;
+        width:auto !important;
+        opacity:1;
+        margin:0;
+        padding:0;
+        -webkit-box-shadow:none;
+        -moz-box-shadow:none;
+        box-shadow:none;
+        border:none;
+        visibility:visible;
+        -webkit-transition:none;
+        -moz-transition:none;
+        -ms-transition:none;
+        -o-transition:none;
+        transition:none;
+        }
+    #wi-mainnav .menu > ul > li > ul {
+        display:none;
+    }
+    
+        /* submenu dark style */
+    .submenu-dark #wi-mainnav .menu > ul > li > ul,
+    .submenu-dark #wi-mainnav .menu > ul > li > ul > li > ul {
+        background: none;
+    }
+    .submenu-dark #wi-mainnav .menu > ul > li > ul > li > a,
+    .submenu-dark #wi-mainnav .menu > ul > li > ul > li > ul > li > a {
+        color: #000;
+        border-top-color: #999;
+    }
+    .submenu-dark #wi-mainnav .menu > ul > li > ul li > a:hover,
+    .submenu-dark #wi-mainnav .menu > ul > li > ul li.current-menu-item > a,
+    .submenu-dark #wi-mainnav .menu > ul > li > ul li.current-menu-ancestor > a {
+        background: none;
+    }
+    
+    /* 13 - Featured Slider
+    ---------------------------- */
+    .slider-title {
+        font-size: 48px; /* 0.8 */
+    }
+    .slider-cell {
+        padding-bottom: 40px;
+    }
+    
+    /* 14 - Section
+    ---------------------------- */
+    .section-heading {
+        font-size: 56px; /* 0.7 */
+        letter-spacing: 1px;
+    }
+    
+    /* 15 - Big post
+    ---------------------------- */
+    .big-title {
+        font-size: 48px; /* 0.8 */
+    }
+    .big-content {
+        font-size: 1.2em;
+    }
+    
+    /* 16 - Standard Blog
+    ---------------------------- */
+    
+    /* 17 - Blog masonry
+    ---------------------------- */
+        /* 3 columns -> 2 columns, 4 columns -> 3 columns */
+    .blog-masonry.column-3 .post-masonry {
+        width: 50%;
+    }
+    .blog-masonry.column-3 .grid-sizer {
+        width: 50%;
+    }
+    .blog-masonry.column-3 .post-masonry:first-child {
+        width: 100%;
+    }
+    
+    .blog-masonry.column-4 .post-masonry {
+        width: 33.33%;
+    }
+    .blog-masonry.column-4 .grid-sizer {
+        width: 33.33%;
+    }
+    .blog-masonry.column-4 .post-masonry:first-child {
+        width: 66.66%;
+    }
+    
+    /* 18 - Blog Newspaper
+    ---------------------------- */
+    .blog-newspaper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-newspaper {
+        padding-left: 0;
+        padding-right: 0;
+        float: none;
+        width: 100%;
+    }
+    
+    /* 19 - Blog Grid
+    ---------------------------- */
+        /* 4 columns -> 2 columns */
+    .blog-grid.column-4 .post-grid {
+        width: 50%;
+    }
+    .blog-grid.column-4 .post-grid:nth-child(4n+1) {
+        clear: none;
+    }
+    .blog-grid.column-4 .post-grid:nth-child(2n+1) {
+        clear: left;
+    }
+    
+    /* 20 - Blog List
+    ---------------------------- */
+    
+    /* 21 - Pagination
+    ---------------------------- */
+    .wi-pagination {
+        padding-top: 28px;
+    }
+    
+    /* 22 - Single post
+    ---------------------------- */
+    .post-small {
+        padding: 10px;
+    }
+    #posts-small {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .small-excerpt {
+        font-size: .8em;
+    }
+    /* 23 - Widgets
+    ---------------------------- */
+    
+    /* 24 - Contact form 7
+    ---------------------------- */
+    
+    /* 25 - Footer
+    ---------------------------- */
+    #wi-footer {
+        background: none;
+    }
+    .footer-widgets-inner {
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+    .footer-col {
+        width: 50%;
+        padding-bottom: 12px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .footer-col:nth-child(3) {
+        clear: left;
+    }
+    .footer-widgets-inner .line2,
+    .footer-widgets-inner .line3 {
+        display: none;
+    }
+    
+    /* 26 - Disable lines CSS
+    ---------------------------- */
+    
+}
+
+/* ===============================================		IPHONE LANDSCAPE target 480px		=============================================== */
+/* FONT SIZE RULE:
+body = 0.875em
+h1 - h6 = 0.7em
+post title, page title, archive title, section heading = 0.6em
+*/
+@media (max-width: 767px) {
+    
+    /* 6 - General settings 
+    ---------------------------- */
+    body {
+        font-size: 14px; /* 0.875em compared with desktop size */
+    }
+    /* factor 0.7em from h1 - h6 */
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px; /* 0.7*32 */
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    .alignleft, a img.alignleft,
+    .alignright, a img.alignright {
+        float: none;
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .wp-caption.alignright,
+    .wp-caption.alignleft {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    blockquote {
+        font-size: 1.3em;
+    }
+    
+    /* container */
+    .container {
+        width: 440px;
+    }
+    #wi-wrapper {
+    }
+    
+    .gallery {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .gallery-item {
+        padding: 5px;
+    }
+    
+    /* 7 - Slick carousel
+    ---------------------------- */
+    .slick-item img {
+        height: 230px;
+    }
+    .wi-slick .slick-nav {
+        display: none !important;
+    }
+    
+    /* 8 - Flexslider
+    ---------------------------- */
+    .slide .slide-caption {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        background: rgba(0,0,0,.7);
+        color: #fff;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .thumbnail-gallery .flex-direction-nav a {
+        width: 36px;
+        height: 36px;
+    }
+    .thumbnail-gallery .flex-direction-nav a:before {
+        font-size: 16px;
+        line-height: 37px;
+    }
+    
+    /* 9 Layout
+    ---------------------------- */
+    #primary {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    #secondary {
+        padding-bottom: 20px;
+    }
+    .has-sidebar #secondary .widget-area .widget {
+        float: none;
+        width: 100%;
+    }
+    
+    /* 10 - Title
+    ---------------------------- */
+    .page-title {
+        font-size: 42px; /* 0.6 */
+    }
+    #titlebar {
+        margin-bottom: 24px;
+    }
+    .archive-title {
+        font-size: 48px; /* 0.6em */
+    }
+    
+    /* 11 - Header
+    ---------------------------- */
+    #wi-topbar {
+        padding-bottom: 0;
+    }
+    #wi-topbar .container {
+        padding-top: 0;
+    }
+    #header-social {
+        bottom: 0;
+    }
+    .admin-bar #wi-topbar.is-sticky {
+        top: 0;
+    }
+    .admin-bar #wi-wrapper {
+    }
+    
+    #wi-header {
+        margin-bottom: 0;
+    }
+    #header-social ul li a {
+        font-size: 20px;
+    }
+    
+    .slogan {
+        letter-spacing: 2px !important;
+    }
+    
+    /* 12 - Menu
+    ---------------------------- */
+    #toggle-menu {
+        top: 0;
+        font-size: 20px;
+    }
+    #toggle-menu span {
+        font-size: 20px;
+    }
+    #wi-mainnav {
+        left: 1px; /* difference by wi-wrapper border left 2px */
+    }
+    #wi-mainnav ul.menu > li > a {
+        padding-left: 15px;
+    }
+    #wi-mainnav ul.menu > li > ul > li > a {
+        padding-left: 30px;
+    }
+    #wi-mainnav ul.menu > li > ul > li > ul > li > a {
+        padding-left: 45px;
+    }
+    
+    #wi-mainnav ul.menu > li > a,
+    #wi-mainnav ul.menu > li > ul > li > a,
+    #wi-mainnav ul.menu > li > ul > li > ul > li > a {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px !important;
+    }
+    #wi-mainnav ul.menu > li > ul > li > a,
+    #wi-mainnav ul.menu > li > ul > li > ul > li > a {
+        font-size: 11px !important;
+        letter-spacing: 1px;
+    }
+    #wi-mainnav ul.menu > li > a > .indicator i {
+        font-size: 12px;
+    }
+    #wi-mainnav ul.menu > li > ul > li > a > .indicator i {
+        font-size: 10px;
+    }
+    #wi-mainnav .menu > ul > li > a > i,
+    #wi-mainnav .menu > ul > li > ul > li > a > i {
+        line-height: 30px;
+    }
+    
+    /* 13 - Featured Slider
+    ---------------------------- */
+        /* navi */
+    .blog-slider {
+        padding-top: 24px;
+        min-height: 150px;
+    }
+    .blog-slider .flex-direction-nav {
+        top: -24px;
+    }
+    .blog-slider .flex-direction-nav a {
+        letter-spacing: 3px;
+    }
+    
+        /* details */
+    .slider-cell {
+        vertical-align: middle;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .slider-title {
+        font-size: 36px; /* 0.6em */
+    }
+    .slider-title a {
+        padding: 0 8px;
+        background: #000;
+    }
+    .slider-excerpt {
+        display: none;
+    }
+    
+    /* 14 - Section
+    ---------------------------- */
+    .section-heading {
+        font-size: 40px; /* 0.5em */
+        text-align: left;
+        letter-spacing: 0;
+    }
+    .section-heading .viewall {
+        top: 5px;
+    }
+    
+    /* 15 - Big post
+    ---------------------------- */
+    .big-meta,
+    .has-thumbnail .big-meta {
+        font-size: 12px;
+        letter-spacing: 2px;
+        height: 20px;
+        line-height: 20px;
+        top: -20px;
+    }
+    .big-title {
+        font-size: 30px; /* .5em */
+    }
+    .big-content {
+        font-size: 1em;
+    }
+    
+    /* 16 - Standard Blog
+    ---------------------------- */
+    .wi-post {
+        padding-top: 30px;
+    }
+    .wi-post:first-child {
+        padding-top: 0;
+    }
+    .post-thumbnail,
+    .post-header {
+        margin-bottom: 32px;
+    }
+    .post-title {
+        font-size: 31px; /* .6em */
+    }
+    .post-header-meta {
+        font-size: .9em;
+    }
+    .enable-dropcap .entry-content p:first-child:first-letter,
+    .enable-dropcap .entry-content h1:first-child +p:first-letter,
+    .enable-dropcap .entry-content h2:first-child +p:first-letter,
+    .enable-dropcap .entry-content h3:first-child +p:first-letter,
+    .enable-dropcap .entry-content h4:first-child +p:first-letter {
+        font-size: 3em;
+        margin: 5px 12px 6px 0;
+    }
+    .enable-2-columns .entry-content {
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    .post-share {
+        width: 100%;
+        letter-spacing: 1px;
+    }
+    .more-link span.post-more {
+        letter-spacing: 3px;
+    }
+        
+        /* related post */
+    .blog-related-heading {
+        letter-spacing: 2px;
+    }
+    .blog-related .line {
+        
+    }
+    .related-thumbnail {
+        float: none;
+        width: 80px;
+        margin: 0 0 14px;
+    }
+    .related-title {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .related-excerpt {
+        display: none;
+    }
+    
+    /* 17 - Blog masonry
+    ---------------------------- */
+        /* 4 columns -> 2 columns, padding smaller */
+    
+    .blog-masonry.column-2 {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .blog-masonry.column-2 .post-masonry {
+        padding: 6px 6px 12px;
+    }
+    .masonry-title a {
+        font-size: .8em;
+    }
+    
+    .blog-masonry.column-3 {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .blog-masonry.column-3 .post-masonry {
+        padding: 6px 6px 12px;
+    }
+    
+    .blog-masonry.column-4 {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .blog-masonry.column-4 .post-masonry {
+        padding: 6px 6px 12px;
+        width: 50%;
+    }
+    .blog-masonry.column-4 .grid-sizer {
+        width: 50%;
+    }
+    .blog-masonry.column-4 .post-masonry:first-child {
+        width: 100%;
+    }
+    
+    /* 18 - Blog Newspaper
+    ---------------------------- */
+    
+    /* 19 - Blog Grid
+    ---------------------------- */
+        /* all --> 2 columns */
+    .blog-grid {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .post-grid {
+        padding: 0 10px 10px;
+    }
+    .grid-title a {
+        font-size: .8em;
+    }
+    
+    .blog-grid.column-3 .post-grid {
+        width: 50%;
+    }
+    .blog-grid.column-3 .post-grid:nth-child(3n+1) {
+        clear: none;
+    }
+    .blog-grid.column-3 .post-grid:nth-child(2n+1) {
+        clear: left;
+    }
+    
+    /* 20 - Blog List
+    ---------------------------- */
+    .list-cats {
+        margin-bottom: 0;
+    }
+    .list-content {
+    }
+    .post-list {
+        padding-bottom: 10px;
+    }
+    .list-thumbnail {
+        width: 150px;
+        margin-right: 16px;
+    }
+    .list-header {
+        padding-bottom: 10px;
+    }
+    .list-title {
+        font-size: 22px;
+    }
+    .list-content {
+        font-size: .9em;
+    }
+    
+    /* 21 - Pagination
+    ---------------------------- */
+    
+    /* 22 - Single post
+    ---------------------------- */
+        /* related */
+    .related-heading, .comments-title, #reply-title {
+        letter-spacing: 2px;
+    }
+    .related-list.column-3 {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .related-list.column-3 .post-grid {
+        width: 33.33%;
+        padding: 0 5px 5px;
+    }
+    .related-list.column-3 .post-grid:nth-child(2n+1) {
+        clear: none;
+    }
+    .related-list .grid-header {
+        border: none;
+        margin-bottom: 0;
+    }
+    .related-list .grid-meta {
+        display: none;
+    }
+    .related-list .grid-content {
+        display: none;
+    }
+    .related-list .grid-title {
+        font-size: 20px;
+    }
+    
+        /* authorbox */
+    .authorbox {
+        margin-top: 32px;
+    }
+    .author-social ul li a {
+        font-size: 18px;
+    }
+    .authorbox-inner {
+        padding: 16px;
+    }
+    .authorbox .author-avatar {
+        width: 60px;
+        height: 60px;
+        margin-right: 36px;
+    }
+    .authorbox-nav {
+        margin-bottom: 10px;
+    }
+    
+        /* same category */
+    #posts-small-heading {
+        top: -2px;
+    }
+    #posts-small {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-small {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        float: none;
+    }
+    .small-thumbnail {
+        float: left;
+        width: 120px;
+        margin: 0 20px 0 0;
+    }
+    .small-body {
+        overflow: hidden;
+    }
+    .small-excerpt {
+        font-size: .9em;
+    }
+    
+        /* navigation */ 
+    .post-navigation .post-title {
+        font-size: 18px; /* 18 = 24*.75 */
+    }
+    
+        /* comment */
+    #comments {
+        padding-top: 24px;
+        margin-bottom: 20px;
+    }
+    .comments-title,
+    #reply-title,
+    .comment-notes, .logged-in-as {
+        margin-bottom: 24px;
+    }
+    .commentlist .comment-author img {
+        width: 48px;
+        height: 48px;
+        padding: 3px;
+        margin-right: 14px;
+    }
+    .comment-metadata, .comment .reply {
+        padding-left: 62px;
+    }
+    .commentlist ul.children {
+        padding-left: 22px;
+    }  
+    .comment-content {
+        padding-top: 3px;
+    }
+    
+        /* respond */
+    .comment-form-author, 
+    .comment-form-email, 
+    .comment-form-url {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    /* 23 - Widgets
+    ---------------------------- */
+    /* 24 - Contact form 7
+    ---------------------------- */
+    .wpcf7 .input,
+    .wpcf7 .textarea {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    
+    /* 25 - Footer
+    ---------------------------- */
+    #backtotop {
+        display: none;
+    }
+    .footer-col {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-top: 12px;
+    }
+    .footer-widgets-inner .line {
+        display: none;
+    }
+    
+    /* 26 - Disable lines CSS
+    ---------------------------- */
+    
+}
+
+/* ===============================================		IPHONE PORTRAIT target 320px		=============================================== */
+@media (max-width: 479px) {
+    /* 6 - General settings 
+    ---------------------------- */
+    blockquote {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.2em;
+    }
+    .container {
+        width: 300px;
+    }
+    
+    /* 7 - Slick carousel
+    ---------------------------- */
+    .slick-item img {
+        height: 180px;
+    }
+    
+    /* 8 - Flexslider
+    ---------------------------- */
+    .thumbnail-gallery .flex-direction-nav a {
+        border: none;
+    }
+    .slide .slide-caption {
+        padding: 3px 6px;
+        line-height: 1.4;
+    }
+    
+    /* 9 Layout
+    ---------------------------- */
+    
+    /* 10 - Title
+    ---------------------------- */
+    /* title */
+    #titlebar .container {
+        padding: 10px 0;
+    }
+    .archive-title {
+        font-size: 32px; /* .4em */
+    }
+    .page-subtitle {
+        font-size: 1.1em
+    }
+    .title-area {
+        border: none;
+    }
+    
+    /* 11 - Header
+    ---------------------------- */
+    #header-social ul li a {
+        font-size: 14px;
+        width: 24px;
+    }
+    
+    .slogan {
+        letter-spacing: 1px !important;
+        font-size: 10px;
+    }
+    
+    /* 12 - Menu
+    ---------------------------- */
+    #wi-mainnav {
+        left: 0;
+    }
+    
+    /* 13 - Featured Slider
+    ---------------------------- */
+    .slider-title {
+        font-size: 24px; /* 50% */
+    }
+    .blog-slider .flex-direction-nav a {
+        letter-spacing: 1px;
+    }
+    
+    /* 14 - Section
+    ---------------------------- */
+    .section-heading {
+        letter-spacing: 2px;
+        font-size: 26px;    /* 0.325 */
+    }
+    .section-heading .viewall {
+        display: block;
+        position: static;
+    }
+    
+    /* 15 - Big post
+    ---------------------------- */
+    .big-title {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    
+    /* 16 - Standard Blog
+    ---------------------------- */
+    .post-title {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+    
+    .post-thumbnail,
+    .post-header {
+        margin-bottom: 24px;
+    }
+    
+        /* share */
+    .post-share ul li,
+    .post-share.share-4 ul li {
+        float: none;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+    
+        /* content */
+    .enable-2-columns .entry-content {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        text-align: left;
+    }
+    
+        /* related area */
+    .related-area {
+        padding-top: 32px;
+    }
+    .blog-related-heading {
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .related-thumbnail {
+        width: 100%;
+    }
+    .blog-related .line {
+        display: none;
+    }
+    .related-excerpt {
+        display: none;
+    }
+    
+    /* 17 - Blog masonry
+    ---------------------------- */
+        /* all-> 1 column */
+    .blog-masonry {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .post-masonry {
+        width: 100% !important;
+    }
+    .masonry-title {
+        font-size: 24px; /* .75em */
+    }
+    .masonry-title a {
+        font-size: 1em !important;
+    }
+    
+    /* 18 - Blog Newspaper
+    ---------------------------- */
+    .newspaper-title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .enable-2-columns .newspaper-content {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        text-align: left;
+    }
+    .newspaper-content p {
+        margin-bottom: 20px;
+    }
+        
+        /* related posts */
+    .newspaper-related-heading {
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    .newspaper-related {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-newspaper .post-related {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin-top: 16px;
+    }
+    .post-newspaper .post-related:first-child {
+        margin-top: 0;
+    }
+    .post-newspaper .related-thumbnail {
+        width: 72px;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    
+    
+    /* 19 - Blog Grid
+    ---------------------------- */
+        /* all -> 1 column */
+    .blog-grid {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .blog-grid .post-grid {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100% !important;
+    }
+    .grid-thumbnail {
+        margin-bottom: 10px;
+    }
+    .grid-title {
+        font-size: 24px;
+    }
+    .grid-title a {
+        font-size: 1em !important;
+    }
+    
+    
+    /* 20 - Blog List
+    ---------------------------- */
+    .post-list,
+    .post-list:first-child {
+        padding-top: 24px;
+    }
+    .post-list:before,
+    .post-list:first-child:before {
+        display: block;
+    }
+    .list-thumbnail {
+        width: 100px;
+        margin: 0 20px 10px 0;
+    }
+    .post-list .post-body {
+        overflow: visible;
+    }
+    
+    /* 21 - Pagination
+    ---------------------------- */
+    .wi-pagination {
+        padding: 18px 0 10px;
+    }
+    .pagination-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+        letter-spacing: 2px;
+        border-width: 1px;
+    }
+    
+    /* 22 - Single post
+    ---------------------------- */
+    
+        /* related */
+    .related-heading, .comments-title, #reply-title {
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .related-list.column-3 .post-grid {
+        padding-bottom: 16px;
+    }
+    
+        /* authorbox */
+    .authorbox .author-avatar {
+        width: 90px;
+        height: 90px;
+        float: none;
+        clear: both;
+        margin: 0 auto 24px;
+    }
+    .authorbox-nav ul li {
+        margin: 0;
+        width: 50%;
+        text-align: center;
+    }
+    .authorbox-content .desc {
+        text-align: center;
+    }
+    .author-social ul {
+        display: inline-block;
+    }
+    .author-social {
+        text-align: center;
+        line-height: 1;
+        float: none;
+    }
+    .author-social ul li a {
+        height: 28px;
+        width: 28px;
+        font-size: 16px;
+    }
+    
+        /* navigation */
+    .post-nav .container {
+        padding: 24px 0;
+    }
+    .post-navigation .nav-links .nav-previous,
+    .post-navigation .nav-links .nav-next {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .post-navigation .post-title {
+        font-size: 22px;
+    }
+    
+        /* same category */
+    #posts-small-heading span {
+        letter-spacing: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    #posts-small {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-small {
+        padding: 10px;
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+        /* comment */
+    .commentlist .comment-author img {
+        margin-right: 15px;
+    }
+    .comment-content, 
+    .comment-metadata, 
+    .comment .reply {
+        padding-left: 55px;
+    }
+    .comment-metadata .edit-link {
+        margin-left: 8px;
+    }
+    
+    /* 23 - Widgets
+    ---------------------------- */
+    
+    /* 24 - Contact form 7
+    ---------------------------- */
+    
+    /* 25 - Footer
+    ---------------------------- */
+    
+    /* 26 - Disable lines CSS
+    ---------------------------- */
+    .disable-hand-lines #posts-small-heading {
+        top: -3px;
+    }
+}
